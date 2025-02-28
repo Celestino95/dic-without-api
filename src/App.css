@@ -1,0 +1,57 @@
+#root {
+    max-width: 1280px;
+      
+      padding: 2rem;
+    }
+    .wordDefinition {
+      text-align: center;
+      position: fixed;
+    }
+    
+    @media (min-width: 768px){
+      .wordDefinition {
+        margin-left: 260px;
+        margin-bottom: 300px;
+        text-align: start;
+        width: 75%;
+        margin-top: 20px;
+      }
+     .sideBar{
+      width: 250px!important;
+      height: 95vh!important;
+     
+     }
+     .select{
+      height: 82vh;
+     }
+     .linhas{
+      height: 35vh;
+      overflow-y: scroll;
+    }
+     
+    
+    }
+    
+    @media (max-width: 768px){
+      
+      .img{
+        margin-right: 28px!important;
+        
+       }
+         .sideBar{
+          width: 90%!important;
+          
+         }
+         .wordDefinition {
+          margin-right: 2000px;
+          margin-top: 170px;
+          text-align: start;
+          width: 270px;
+          font-size: 14px;
+        }
+        .linhas{
+          height: 20vh;
+          overflow-y: scroll;
+        }
+    
+    }

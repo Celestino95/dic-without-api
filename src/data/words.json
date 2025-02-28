@@ -1,0 +1,146 @@
+[
+  {
+    "word": "the",
+    "definition": "Used to specify a particular thing or person that is already known.",
+    "synonyms": [],
+    "translation": "o, a, os, as"
+  },
+  {
+    "word": "be",
+    "definition": "To exist, to have a specified quality.",
+    "synonyms": ["exist", "live", "remain"],
+    "translation": "ser, estar"
+  },
+  {
+    "word": "to",
+    "definition": "Expressing motion in the direction of a particular location.",
+    "synonyms": ["toward", "until"],
+    "translation": "para, a"
+  },
+  {
+    "word": "of",
+    "definition": "Expressing the relationship between a part and a whole.",
+    "synonyms": ["from", "about"],
+    "translation": "de, do, da"
+  },
+  {
+    "word": "and",
+    "definition": "Used to connect words of the same part of speech, clauses, or sentences.",
+    "synonyms": ["plus", "also"],
+    "translation": "e"
+  },
+  {
+    "word": "a",
+    "definition": "Used when referring to someone or something for the first time.",
+    "synonyms": [],
+    "translation": "um, uma"
+  },
+  {
+    "word": "in",
+    "definition": "Expressing the situation of something that is or appears to be enclosed.",
+    "synonyms": ["inside", "within"],
+    "translation": "em, dentro"
+  },
+  {
+    "word": "that",
+    "definition": "Used to identify a specific person or thing observed or heard.",
+    "synonyms": ["which", "who"],
+    "translation": "que, aquele, aquela"
+  },
+  {
+    "word": "have",
+    "definition": "Possess, own, or hold.",
+    "synonyms": ["own", "possess"],
+    "translation": "ter, possuir"
+  },
+  {
+    "word": "I",
+    "definition": "Used by a speaker to refer to themselves.",
+    "synonyms": [],
+    "translation": "eu"
+  },
+  {
+    "word": "it",
+    "definition": "Used to refer to a thing previously mentioned or easily identified.",
+    "synonyms": ["this", "that"],
+    "translation": "isso, ele, ela"
+  },
+  {
+    "word": "for",
+    "definition": "Intended to be given to.",
+    "synonyms": ["to", "on behalf of"],
+    "translation": "para, por"
+  },
+  {
+    "word": "not",
+    "definition": "Used to make a word or phrase negative.",
+    "synonyms": ["no", "never"],
+    "translation": "não"
+  },
+  {
+    "word": "with",
+    "definition": "Accompanied by (another person or thing).",
+    "synonyms": ["alongside", "together with"],
+    "translation": "com"
+  },
+  {
+    "word": "he",
+    "definition": "Used to refer to a male person or animal.",
+    "synonyms": [],
+    "translation": "ele"
+  },
+  {
+    "word": "as",
+    "definition": "Used in comparisons to refer to the extent or degree of something.",
+    "synonyms": ["like", "similar to"],
+    "translation": "como"
+  },
+  {
+    "word": "you",
+    "definition": "Used to refer to the person or people that the speaker is addressing.",
+    "synonyms": [],
+    "translation": "você, tu"
+  },
+  {
+    "word": "do",
+    "definition": "Perform an action, the precise nature of which is often unspecified.",
+    "synonyms": ["perform", "execute"],
+    "translation": "fazer"
+  },
+  {
+    "word": "at",
+    "definition": "Expressing location or arrival in a particular place or position.",
+    "synonyms": ["in", "on"],
+    "translation": "em, no, na"
+  },
+  {
+    "word": "this",
+    "definition": "Used to identify a specific person or thing close at hand or being indicated.",
+    "synonyms": ["that", "these"],
+    "translation": "este, esta, isso"
+  },
+  {
+    "word": "but",
+    "definition": "Used to introduce a phrase or clause contrasting with what has already been mentioned.",
+    "synonyms": ["however", "yet"],
+    "translation": "mas, porém"
+  },
+  {
+    "word": "we",
+    "definition": "Used by a speaker to refer to themselves and one or more other people.",
+    "synonyms": [],
+    "translation": "nós"
+  },
+  {
+    "word": "on",
+    "definition": "Physically in contact with and supported by a surface.",
+    "synonyms": ["upon", "over"],
+    "translation": "em, sobre"
+  },
+  {
+    "word": "they",
+    "definition": "Used to refer to two or more people or things previously mentioned.",
+    "synonyms": [],
+    "translation": "eles, elas"
+  }
+]
