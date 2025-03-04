@@ -29,10 +29,10 @@ export default function SiderBar({ selectedWord, setSelectedWord, onSearch }: Si
       <aside style={styles.sidebar} className="sideBar">
         <Search word={selectedWord} setWord={setSelectedWord} onSearch={onSearch} setFilteredWords={setFilteredWords}/>
         <select className="select" multiple={!isMobile ? true : undefined} style={styles.select} onChange={(e) => onSearch(e.target.value)}>
-            <option disabled>Seleciona uma palavra</option>
-            {(filteredWords.length > 0 ? filteredWords : wordsData.map(w => w.word)).map((word) => (
-          <option key={word} value={word}>{word}</option>
-        ))}
+            <option disabled>Choose a word</option>
+            {(/* filteredWords.length > 0 ? filteredWords :*/ wordsData.map(w => w.word)).map((word) => (
+                <option key={word} value={word}>{word}</option>
+             ))}
         </select>
       </aside>
     </div>

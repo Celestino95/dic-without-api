@@ -8,7 +8,7 @@ export default function Body() {
   const [definition, setDefinition] = useState("");
   const [translation, setTranslation] = useState("");
 
-  // Função para buscar os detalhes da palavra
+  
   const fetchWordDetails = (word: string) => {
     const wordInfo = wordsData.find((w) => w.word.toLowerCase() === word.toLowerCase());
     if (wordInfo) {
@@ -17,7 +17,7 @@ export default function Body() {
       setTranslation(wordInfo.translation);
     } else {
       setSelectedWord(word);
-      setDefinition("Palavra não encontrada.");
+      setDefinition("Word no found.");
       setTranslation("");
     }
   };

@@ -17,22 +17,15 @@ This is an online dictionary application built with TypeScript and React. The ap
 ## Project Structure
 
 ```
-online-dictionary-app
+my-dictionary
 ├── src
 │   ├── components
 │   │   ├── Body.tsx
 │   │   ├── SearchBar.tsx
-│   │   ├── Definitions.tsx
-│   │   ├── Synonyms.tsx
-│   │   ├── Examples.tsx
 │   │   ├── Autocomplete.tsx
-│   │   ├── Favorites.tsx
-│   │   ├── Translations.tsx
 │   │   └── ResultsWords.tsx
-│   ├── hooks
-│   │   └── useDictionaryAPI.ts
-│   ├── services
-│   │   └── dictionaryAPI.ts
+│   ├── data
+│   │   └── words.json
 │   ├── utils
 │   │   └── cache.ts
 │   ├── App.tsx

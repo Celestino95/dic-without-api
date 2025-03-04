@@ -1,5 +1,5 @@
 {
-  "name": "online-dictionary-app",
+  "name": "my-dictionary",
   "version": "1.0.0",
   "description": "An online dictionary application with search, definitions, synonyms, translations, and more.",
   "main": "src/index.tsx",

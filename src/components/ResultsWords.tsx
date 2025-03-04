@@ -25,33 +25,33 @@ export default function ResultsWords({ word, definition, translation }: WordDefi
   return (
     <div className="wordDefinition" style={{ color: "#515151", padding: "10px"}}>
       <div style={{minHeight:"170px"}}>
-        <h2>Resultados em English</h2>
+        <h2>Results in English</h2>
         {word ? (
           <>
-            <p><strong>Palavra:</strong> {word}</p>
-            <p><strong>Definição:</strong> {definition}</p>
+            <p><strong>Word:</strong> {word}</p>
+            <p><strong>Definition:</strong> {definition}</p>
             <button onClick={toggleFavorite} style={styles.button}>
-              {favorites.includes(word) ? "⭐ Remover dos Favoritos" : "☆ Adicionar aos Favoritos"}
+              {favorites.includes(word) ? "⭐" : "☆"}
             </button>
           </>
         ) : (
-          <p>Selecione ou escreva uma palavra para ver os detalhes.</p>
+          <p>Select or write a word to see the details</p>
         )}
       </div>
       <div style={{ marginTop: "20px",minHeight: "70px" }}>
         <hr />
-        <h2>Resultados em Português</h2>
-        {translation ? <p><strong>Tradução:</strong> {translation}</p> : <p>Sem tradução disponível.</p>}
+        <h2>Results in Portugues</h2>
+        {translation ? <p><strong>Translation:</strong> {translation}</p> : <p>Without available translation.</p>}
       </div>
 
       <div>
         <hr />
-        <h2>Palavras Favoritas</h2>
+        <h2>Favorite words</h2>
         <ul className="linhas">
           {favorites.length > 0 ? (
             favorites.map((fav) => <li key={fav}>{fav}</li>)
           ) : (
-            <p>Nenhuma palavra favoritada.</p>
+            <p>Any favorite word.</p>
           )}
         </ul>
       </div>
